@@ -1,0 +1,18 @@
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/2.7.0/gems/racc-1.8.0/ext/racc/cparse
+/Users/suyamatatsuya/.rbenv/versions/2.7.4/bin/ruby -I /Users/suyamatatsuya/.rbenv/versions/2.7.4/lib/ruby/site_ruby/2.7.0 extconf.rb
+creating Makefile
+
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/2.7.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240723-11475-ku1opk sitelibdir\=./.gem.20240723-11475-ku1opk clean
+
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/2.7.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240723-11475-ku1opk sitelibdir\=./.gem.20240723-11475-ku1opk
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/2.7.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240723-11475-ku1opk sitelibdir\=./.gem.20240723-11475-ku1opk install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20240723-11475-ku1opk/racc
+
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/2.7.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240723-11475-ku1opk sitelibdir\=./.gem.20240723-11475-ku1opk clean

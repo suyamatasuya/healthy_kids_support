@@ -1,0 +1,18 @@
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/3.3.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+/Users/suyamatatsuya/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/3.3.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240723-52559-4soh6l sitelibdir\=./.gem.20240723-52559-4soh6l clean
+
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/3.3.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240723-52559-4soh6l sitelibdir\=./.gem.20240723-52559-4soh6l
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/3.3.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240723-52559-4soh6l sitelibdir\=./.gem.20240723-52559-4soh6l install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20240723-52559-4soh6l
+
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/3.3.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240723-52559-4soh6l sitelibdir\=./.gem.20240723-52559-4soh6l clean

@@ -1,0 +1,18 @@
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.1/ext/stringio
+/Users/suyamatatsuya/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.1/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240723-52559-mwslcs sitelibdir\=./.gem.20240723-52559-mwslcs clean
+
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.1/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240723-52559-mwslcs sitelibdir\=./.gem.20240723-52559-mwslcs
+compiling stringio.c
+linking shared-object stringio.bundle
+
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.1/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240723-52559-mwslcs sitelibdir\=./.gem.20240723-52559-mwslcs install
+/usr/bin/install -c -m 0755 stringio.bundle ./.gem.20240723-52559-mwslcs
+
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.1/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240723-52559-mwslcs sitelibdir\=./.gem.20240723-52559-mwslcs clean

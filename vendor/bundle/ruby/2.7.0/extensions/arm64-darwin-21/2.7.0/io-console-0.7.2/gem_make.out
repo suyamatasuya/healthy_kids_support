@@ -1,0 +1,28 @@
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/2.7.0/gems/io-console-0.7.2/ext/io/console
+/Users/suyamatatsuya/.rbenv/versions/2.7.4/bin/ruby -I /Users/suyamatatsuya/.rbenv/versions/2.7.4/lib/ruby/site_ruby/2.7.0 extconf.rb
+checking for rb_io_path()... no
+checking for rb_io_descriptor()... no
+checking for rb_io_get_write_io()... yes
+checking for rb_io_closed_p()... no
+checking for rb_io_open_descriptor()... no
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... no
+checking for rb_scheduler_timeout()... no
+creating Makefile
+
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/2.7.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240723-11475-1s2wa7z sitelibdir\=./.gem.20240723-11475-1s2wa7z clean
+
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/2.7.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240723-11475-1s2wa7z sitelibdir\=./.gem.20240723-11475-1s2wa7z
+compiling console.c
+linking shared-object io/console.bundle
+
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/2.7.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240723-11475-1s2wa7z sitelibdir\=./.gem.20240723-11475-1s2wa7z install
+/usr/bin/install -c -m 0755 console.bundle ./.gem.20240723-11475-1s2wa7z/io
+
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/2.7.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240723-11475-1s2wa7z sitelibdir\=./.gem.20240723-11475-1s2wa7z clean
