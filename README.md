@@ -83,3 +83,6 @@
 - Typescript
 - Tailwind.css
 - Heroku
+
+ER図
+https://drive.google.com/file/d/1N8TWxxAyJd_pk9F4rRhfxODJTbddt9BA/view?usp=sharing
