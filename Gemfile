@@ -45,3 +45,9 @@ group :development do
   # gem "spring"
 end
 
+gem 'dotenv-rails'
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
+gem 'devise'
+gem 'dotenv-rails'
+
