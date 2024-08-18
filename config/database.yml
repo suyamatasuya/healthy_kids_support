@@ -77,8 +77,11 @@ test:
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
 #
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
 production:
   <<: *default
-  database: healthy_kids_support_production
-  username: healthy_kids_support
-  password: <%= ENV["HEALTHY_KIDS_SUPPORT_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
