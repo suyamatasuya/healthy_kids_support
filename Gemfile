@@ -45,9 +45,9 @@ group :development do
   # gem "spring"
 end
 
-gem 'dotenv-rails'
+gem 'byebug', group: [:development, :test]
 gem 'omniauth'
 gem 'omniauth-google-oauth2'
 gem 'devise'
 gem 'dotenv-rails'
-
+gem 'rack-cors', require: 'rack/cors'

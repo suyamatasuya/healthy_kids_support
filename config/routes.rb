@@ -1,14 +1,14 @@
 Rails.application.routes.draw do
-  devise_for :users, controllers: {
+  resources :users, only: [:create, :show, :update]
+  
+  # メールアドレスでユーザーを検索するエンドポイント
+  get 'users/find_by_email', to: 'users#find_by_email'
+
+  devise_for :users, skip: [:registrations], controllers: {
     omniauth_callbacks: 'users/omniauth_callbacks'
   }
 
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
-  # Can be used by load balancers and uptime monitors to verify that the app is live.
+  get '/csrf_token', to: 'application#csrf_token'
   get "up" => "rails/health#show", as: :rails_health_check
-
-  # Defines the root path route ("/")
-  # root "posts#index"
+  root "home#index"
 end

@@ -1,0 +1,22 @@
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/3.3.0/gems/byebug-11.1.3/ext/byebug
+/Users/suyamatatsuya/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/3.3.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20240805-71891-s5r30a sitelibdir\=./.gem.20240805-71891-s5r30a clean
+
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/3.3.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20240805-71891-s5r30a sitelibdir\=./.gem.20240805-71891-s5r30a
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/3.3.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20240805-71891-s5r30a sitelibdir\=./.gem.20240805-71891-s5r30a install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20240805-71891-s5r30a/byebug
+
+current directory: /Users/suyamatatsuya/workspace/healthy_kids_support/vendor/bundle/ruby/3.3.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20240805-71891-s5r30a sitelibdir\=./.gem.20240805-71891-s5r30a clean
